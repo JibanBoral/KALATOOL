@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# Define colors
+GREEN='\033[0;32m'
+WHITE='\033[1;37m'
+NOCOLOR='\033[0m'
+
+# Clear the terminal
+clear
+
+# Print the ASCII art with colors
+echo -e "${GREEN}KKKKKKKKK    KKKKKKK               AAA               LLLLLLLLLLL                            AAA                    "
+echo -e "${GREEN}K:::::::K    K:::::K              A:::A              L:::::::::L                           A:::A                   "
+echo -e "${GREEN}K:::::::K    K:::::K             A:::::A             L:::::::::L                          A:::::A                  "
+echo -e "${GREEN}K:::::::K   K::::::K            A:::::::A            LL:::::::LL                         A:::::::A                 "
+echo -e "${GREEN}KK::::::K  K:::::KKK           A:::::::::A             L:::::L                          A:::::::::A                "
+echo -e "${WHITE}  K:::::K K:::::K             A:::::A:::::A            L:::::L                         A:::::A:::::A               "
+echo -e "${WHITE}  K::::::K:::::K             A:::::A A:::::A           L:::::L                        A:::::A A:::::A              "
+echo -e "${WHITE}  K:::::::::::K             A:::::A   A:::::A          L:::::L                       A:::::A   A:::::A             "
+echo -e "${WHITE}  K:::::::::::K            A:::::A     A:::::A         L:::::L                      A:::::A     A:::::A            "
+echo -e "${WHITE}  K::::::K:::::K          A:::::AAAAAAAAA:::::A        L:::::L                     A:::::AAAAAAAAA:::::A           "
+echo -e "${WHITE}  K:::::K K:::::K        A:::::::::::::::::::::A       L:::::L                    A:::::::::::::::::::::A          "
+echo -e "${GREEN}KK::::::K  K:::::KKK    A:::::AAAAAAAAAAAAA:::::A      L:::::L         LLLLLL    A:::::AAAAAAAAAAAAA:::::A         "
+echo -e "${GREEN}K:::::::K   K::::::K   A:::::A             A:::::A   LL:::::::LLLLLLLLL:::::L   A:::::A             A:::::A        "
+echo -e "${GREEN}K:::::::K    K:::::K  A:::::A               A:::::A  L::::::::::::::::::::::L  A:::::A               A:::::A       "
+echo -e "${GREEN}K:::::::K    K:::::K A:::::A                 A:::::A L::::::::::::::::::::::L A:::::A                 A:::::A      "
+echo -e "${GREEN}KKKKKKKKK    KKKKKKKAAAAAAA                   AAAAAAALLLLLLLLLLLLLLLLLLLLLLLLAAAAAAA                   AAAAAAA     "
+echo -e "${NOCOLOR}"
